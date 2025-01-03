@@ -1,8 +1,6 @@
-# iris-KNN-classifier
-
 # Iris Species Classification using K-Nearest Neighbors (KNN)
 
-This project demonstrates how to perform exploratory data analysis (EDA) and build a K-Nearest Neighbors (KNN) model to classify Iris flower species based on their sepal and petal measurements. The dataset used is `Iris-Copy1.csv`, which contains 150 entries with four features and a target variable (`Species`).
+This Jupyter Notebook demonstrates how to perform exploratory data analysis (EDA) and build a K-Nearest Neighbors (KNN) model to classify Iris flower species based on their sepal and petal measurements. The dataset used is `Iris-Copy1.csv`, which contains 150 entries with four features and a target variable (`Species`).
 
 ---
 
@@ -21,9 +19,9 @@ Before running the code, ensure you have the following installed:
 - Python 3.x
 - Required Python libraries:
   ```bash
-  pip install numpy pandas seaborn matplotlib scikit-learn
+  pip install numpy pandas seaborn matplotlib scikit-learn jupyter
   ```
-- Jupyter Notebook (optional, for running `.ipynb` files).
+- Jupyter Notebook (to run the `.ipynb` file).
 
 ---
 
@@ -36,21 +34,20 @@ Before running the code, ensure you have the following installed:
    ```
 
 2. **Download the Dataset**  
-   Ensure the dataset `Iris-Copy1.csv` is in the same directory as the script or notebook.
+   Ensure the dataset `Iris-Copy1.csv` is in the same directory as the notebook.
+
+3. **Launch Jupyter Notebook**  
+   Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+   Open the `.ipynb` file from the Jupyter Notebook interface.
 
 ---
 
 ## **Running the Code**
-1. **Using Jupyter Notebook**  
-   - Open the `.ipynb` file in Jupyter Notebook.
-   - Run each cell sequentially to execute the code.
-
-2. **Using Python Script**  
-   - Save the code in a `.py` file (e.g., `iris_classification.py`).
-   - Run the script using:
-     ```bash
-     python iris_classification.py
-     ```
+1. Open the `.ipynb` file in Jupyter Notebook.
+2. Run each cell sequentially to execute the code.
 
 ---
 
@@ -151,4 +148,4 @@ If you encounter any issues or have questions, feel free to open an issue in thi
 
 ---
 
-Enjoy exploring the Iris species classification model! 🌸
+Enjoy exploring the Iris species classification model in Jupyter Notebook! 🌸
